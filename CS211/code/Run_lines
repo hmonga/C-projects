@@ -1,0 +1,6 @@
+gcc file_Name(to compile)
+./ file_Name (to run file)
+gcc file_Name.c -o testcode123 (to give compile file a name)
+gcc program.c -o program -fsanitize=address (for out of bounds error)
+Recommended compilation for catching most issues: gcc program.c -o program -Wall -Wextra -fsanitize=address
+-Werror(warnings are treated as errors)
